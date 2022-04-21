@@ -2,8 +2,12 @@
   
   
 <main>
-  <div id="section-one" class="outer-col-12 my-4">
-    <div class="inner-col-5 sidderpaenstol">
+  
+  <div id="section-one" class="width: 100% - 260 px">
+    <div class="width: 100% - 260px sidderpaenstol">
+      
+      
+      
 
 
     </div>
@@ -13,16 +17,10 @@
       
       <div class="top-right-text">
         <h1 id="h1-special" class="py-3">About</h1>
-        <p>
-          My name is Heidi and I work with photography and video editing. <br />
-          Currently I am a student in Multimediadesign, learning more and implementing it to my work. <br />
-          I started working at a local tv-station for 2 years and that is where my passion 
-          and interest for video and photography started. <br />I have worked as a pedagogue for many 
-          years and in my freetime I have been doing photography and Videos. <br />
-          I have done slideshows, small video projects, a concert and promo video. 
+        
 
 
-        </p>
+        
       </div>
 
     </div>
@@ -46,17 +44,16 @@
 
        <div class="video-content video1 inner-col-6">
         <h2>Festoriginalerne Promo Video</h2>
-        <p class="py-4">I made this promo video for a local band called festoriginalerne. <br />
-          They played at Tobakken Esbjerg and had a guy shooting 
-          the video and then I put it together for a <br> promo video.</p>
+        <p class="py-4">Jeg har lavet en promo video for er lokalt band der hedder Festoriginalerne. <br />
+          De spillede til Forårsfest på Tobakken i Esbjerg, <br>hvor de havde en mand til at filme og jeg har derefter redigeret det.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/6zb7pitSQLE" 
           title="Festoriginalerne promo" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe>
        </div>
        <div class="video-content video2 inner-col-6">
-        <h2>Sara's confirmation</h2>
-        <p class="py-4"> <br> This is a video for a confirmation. <br>
+        <h2>Sara's konfirmation</h2>
+        <p class="py-4"> <br> Et slideshow til konfirmation. <br>
         <br>
         </p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ZienjmD9_2M" title="YouTube video player" frameborder="0" 
@@ -66,15 +63,15 @@
       <div class="videocontainer-bottom outer-col-12">
 
         <div class="video-content video3 inner-col-6">
-          <h2>My mom's memorial service</h2>
-        <p class="py-4">In 2017 I lost my mom and I made this video for her memorial service.</p>
+          <h2>Min mors mindehøjtidelighed</h2>
+        <p class="py-4">I 2017 mistede jeg min mor og lavede en video til hendes mindehøjtidelighed.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/o9dhRZalD9Q" title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="video-content video4 inner-col-6">
-          <h2>Wedding</h2>
-        <p class="py-4">A video for my sisters wedding.</p>
+          <h2>Bryllup</h2>
+        <p class="py-4">En video til min søsters bryllup.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/YpvteIDz9d4" title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -140,7 +137,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #4293b9;
 }
 
 
@@ -529,7 +526,7 @@ header nav ul li a:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 100%;
+  height: 105%;
   background-image: url("../assets/sidderpaastol.png");
   background-size: cover;
   background-repeat: no-repeat;

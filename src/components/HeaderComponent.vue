@@ -4,14 +4,14 @@
       <div id="top-header">
         <!-- Logo -->
         <div id="logo">
-          <img alt="Vue logo" height="40" src="../assets/logo.png">
+          <img alt="Vue logo" height="70" src="../assets/logo.png">
         </div>
       </div>
 
       <div id="navigation" class="outer-col-12">
         <nav>
           <router-link to="/">Hjem</router-link> | 
-          <router-link to="/about">About</router-link>
+          <router-link to="/Projekter">Projekter</router-link>
         </nav>
         <router-view />
       </div>
@@ -25,13 +25,13 @@ export default {};
 
 <style lang="scss" scoped>
     header {
-  height:200px;
+  height:400px;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  gap: 0px;
-  max-width: 80vw; // Change for full width or a set width -> in config file
-  width: 80vw;
+  gap: 60px;
+  max-width: 90vw; // Change for full width or a set width -> in config file
+  width: 110%;
   justify-content: center;
   margin-bottom:30px;
   nav {
@@ -40,7 +40,7 @@ export default {};
     border-bottom: 1px solid #333333;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 110%;
     ul {
       display: flex;
       list-style-type: none;

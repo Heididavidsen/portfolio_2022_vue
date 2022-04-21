@@ -1,11 +1,15 @@
 <template>
-    <header-component></header-component>
+  <div id="toplevel-wrapper" class="container-fluid d-flex min-vh-100 flex-column">
+    <NavigationComponent />
+    <router-view/>
+  
+  </div>  
 </template>
 
   <script>
-  import HeaderComponent from '@/components/HeaderComponent.vue'
+  import NavigationComponent from '@/components/NavigationComponent.vue'
   export default {
-    components: {HeaderComponent}
+    components: {NavigationComponent}
     
   }
   </script>
@@ -17,18 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  #toplevel-wrapper { 
+  padding:0; /* Added */
+  
+
+}
 }
 
-nav {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>

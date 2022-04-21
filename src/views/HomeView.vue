@@ -1,18 +1,105 @@
 <template>
   <div class="home">
-   
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="parallax-one">
+      <h1 id="headline">
+          Heidi Davidsen.
+          </h1>
+           <br />
+          <p id="velkommen"> Velkommen til mit portfolio. Her kan du se, hvilke projekter jeg har arbejdet med. <br /> 
+          arbejder med design til poster, logo, hjemmesider, visitkort, foldere, foto og videoprojekter.</p>
+
+    </div>
+    <div class="row-links">
+    <router-link to="/picture"> 
+      <img id="picture_img_link" src="../assets/omvendt.jpg" alt="">
+    </router-link>
+    </div>
+
+    <div class="row-links">
+     <router-link to="/video">  
+     <img id="picture_img_link" src="../assets/festoriginalerne.jpg" alt=""></router-link>
+     </div>
+
+     <div class="row-links">
+      <router-link to="/logo/poster">  <img id="picture_img_link" src="../assets/sandstorieslogo.png" alt=""></router-link>
+</div>
+<!--
+    <PictureComponent />
+    -->
+    
+    <VideoComponent />
+    <LogoComponent />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+//import PictureComponent from "@/components/PictureComponent.vue";
+//import VideoComponent from "@/components/VideoComponent.vue";
+//import LogoComponent from "@/components/LogoComponent.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+  //  PictureComponent,
+  //  VideoComponent,
+  //  LogoComponent
+  },
+};
 </script>
+
+<style scoped>
+.parallax-one {
+  padding-top: 400px;
+  padding-bottom: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url("../assets/sidderpaastol-dark.png");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  position: relative;
+
+}
+#headline{
+  font-family: "Great Vibes", Avenir, Helvetica, Arial, sans-serif;
+  color: #edf1f5;
+  font-weight: bold;
+  font-size: 60px;
+  
+
+  }
+
+#velkommen{
+  color: #f6f8fa;
+  font-size: 20px;
+}  
+
+.row-links {
+ 
+  background-color: #222;
+  padding:20px 0
+}
+.row-links img {
+   filter: grayscale(100);
+}
+
+.row-links img:hover{
+   filter: grayscale(0);
+}
+
+#picture_img_link {
+  height:90vh;
+  width: 90vw;
+  
+}
+</style>
+
+
+
+
