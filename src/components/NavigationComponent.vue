@@ -18,9 +18,11 @@
             </div>
                 
             <div class="social_media col-sm-4 col-md-2">
-                <a href="https://www.facebook.com/profile.php?id=534687702" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/Sandstoriess" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                <a href="https://www.linkedin.com/in/heididavidsensandstories/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
                <a href="https://www.youtube.com/channel/UClB1FgpdUgKRxAEOTlr-aIQ" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+               <a href="https://www.instagram.com/sandstoriesdk/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+
 
             </div>
             </div>
