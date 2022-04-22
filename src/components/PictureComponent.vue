@@ -38,6 +38,7 @@ import { ref } from 'vue'
 export default {
   setup() {
     
+    
  
     let portraits = ref([
       {
@@ -139,6 +140,7 @@ export default {
 
 #picture_section{
     background-color: #222;
+    
 }
  
 h1{color: #edf1f5 ;}
@@ -148,6 +150,7 @@ h1{color: #edf1f5 ;}
 
 #video_section{
     background-color: #222;
+    height: 200vh;
     
 }
 .active {

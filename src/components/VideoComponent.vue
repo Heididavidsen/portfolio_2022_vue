@@ -8,7 +8,7 @@
 
     
     <div >
-      <h1>Videoer</h1>
+      <h1>Videoprojekter</h1>
     </div>
  
 
@@ -150,10 +150,14 @@ export default {
 
 #video_section{
     background-color: #222;
+    height: 120vh;
 }
  
 h1{
-  color: #edf1f5 ;}
+  color: #edf1f5 ;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px ;}
   
 #cardOne{
   color: #222; 

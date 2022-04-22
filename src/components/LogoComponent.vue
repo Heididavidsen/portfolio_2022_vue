@@ -1,4 +1,5 @@
 <template>
+
 <section id="logo_section">
 
  <div class="container-md"> <!-- switch to margin x over MD size(fluid and !fluid) -->
@@ -8,7 +9,7 @@
 
     
     <div >
-      <h1>Logoer</h1>
+      <h1>Logo/Poster</h1>
     </div>
  
 
@@ -42,22 +43,34 @@ export default {
     let portraits = ref([
       {
         projectID: 1,
-        projectTitle: "Familiebilleder",
-        projectDescription: "Photoshoot i skoven",
-        projectURL: require("../assets/pborn.jpg"),
+        projectTitle: "Halloweenplakat",
+        projectDescription: "Poster",
+        projectURL: require("../assets/halloween.png"),
         projectCategory: "Video"
       }, 
        {
         projectID: 2,
-        projectTitle: "Firmabilleder",
-        projectDescription: "Esbjerg Bryghus",
-        projectURL: require("../assets/esbjergbryghus.jpg"),
+        projectTitle: "Trapholt",
+        projectDescription: "Logo med farve",
+        projectURL: require("../assets/logoexam.jpg"),
       },
       {
         projectID: 3,  
-        projectTitle: "Card Two",
-        projectDescription: "Lorem ipsum, text is very nice. Much wow2",
-        projectURL: "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80"
+        projectTitle: "Trapholt",
+        projectDescription: "Logo sort/hvid",
+        projectURL: require("../assets/trapholtsort.png"),
+      },
+      {
+        projectID: 4,  
+        projectTitle: "Sand Stories",
+        projectDescription: "Eget design af logo",
+        projectURL: require("../assets/sandstorieslogo.png"),
+      },
+      {
+        projectID: 5,  
+        projectTitle: "Seed of Life Logo",
+        projectDescription: "Logo lavet til holistisk terapi",
+        projectURL: require("../assets/seedoflife.png"),
       },
       
     ])
@@ -74,6 +87,7 @@ export default {
 
 #logo_section{
     background-color: #222;
+    height: 200vh;
 }
  
 h1
